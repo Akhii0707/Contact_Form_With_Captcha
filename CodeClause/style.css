@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    box-shadow: 0 0 4px 0 black;
+    margin: 50px auto;
+    width: 350px;
+    text-align: center;
+}
+.container h1{
+    background-color: rgb(187, 197, 193);
+    margin-top: 0;
+    padding: 10px;
+}
+.container input{
+    display: block;
+    width: 86%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.container textarea{
+    width: 90%;
+    margin: 5px auto;
+    padding-left: 10px;
+    height: 80px;
+}
+.submit-btn{
+    cursor: pointer;
+    width: 150px !important;
+    margin-left: 12px !important;
+}
+.g-recaptcha{
+    margin: 10px 20px;
+}
+.status{
+    font-size: 15px;
+    color: green;
+    padding: 15px;
+}
+.status span{
+    color: red;
+}
